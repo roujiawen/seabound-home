@@ -1,34 +1,284 @@
-<!doctype html>
-<html>
-<head>
-	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" >
+		<title>Seabound</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="icon" href="i/favicon.png">
+		<!-- AOS 3.0.0-beta.6 plugin CSS (Animations) -->
+		<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+		<!-- Google Fonts -->
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&subset=latin&display=swap" rel="stylesheet">
+		<!-- Startup CSS + Bootstrap CSS (Styles for all blocks) - Remove ".min" if you want to edit a css code -->
+		<link href="css/styles.min.css" rel="stylesheet" />
+		<!-- jQuery 3.6.0 (uncomment line below if you need jQuery) -->
+		<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> -->
+		<!-- Open graph settings (social networks sharing settings) -->
+		<!-- Open graph settings end -->
+	</head>
+	<body>
 
-	<title>Seabound</title>
-	<meta http-equiv="pragma" content="no-cache" />
-	<meta name="robots" content="all" />
-	<meta name="MSSmartTagsPreventParsing" content="true" />
-	<meta http-equiv="imagetoolbar" content="false" />
-	<style>
-		p { color: #FFFFFF; font-family: "Lucida Console", Monaco, monospace; font-size: 22px; line-height: 24px; margin-bottom: 22px; -webkit-font-smoothing: antialiased; }
-		#about { width: 750px; padding: 0px 0px 0px 150px; margin: 50px 50px 0 auto !important; }
-	</style>
-</head>
+<!-- Header 1 -->
+	<header class="bg-bg-3 py-4 py-lg-7 bg-repeat-none bg-position-bottom-center bg-size-cover" data-bg-src="i/background.png" id="home">
+		<div class="d-block d-lg-none">
+			<div class="container">
+				<div class="row align-items-center">
+					<div class="col-3" data-aos="fade" data-aos-delay="0">
+						<a href="#" class="d-lg-none custom-mobile-nav-btn btn-width-equal-height btn bg-transparent" data-bs-toggle="offcanvas" data-bs-target="#custom-id-xokxx59g">
+							<svg width="20" height="20" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" class="fill-bg-1">
+								<path d="M2.00016 5.33333H14.0002C14.177 5.33333 14.3465 5.2631 14.4716 5.13807C14.5966 5.01305 14.6668 4.84348 14.6668 4.66667C14.6668 4.48986 14.5966 4.32029 14.4716 4.19526C14.3465 4.07024 14.177 4 14.0002 4H2.00016C1.82335 4 1.65378 4.07024 1.52876 4.19526C1.40373 4.32029 1.3335 4.48986 1.3335 4.66667C1.3335 4.84348 1.40373 5.01305 1.52876 5.13807C1.65378 5.2631 1.82335 5.33333 2.00016 5.33333ZM14.0002 10.6667H2.00016C1.82335 10.6667 1.65378 10.7369 1.52876 10.8619C1.40373 10.987 1.3335 11.1565 1.3335 11.3333C1.3335 11.5101 1.40373 11.6797 1.52876 11.8047C1.65378 11.9298 1.82335 12 2.00016 12H14.0002C14.177 12 14.3465 11.9298 14.4716 11.8047C14.5966 11.6797 14.6668 11.5101 14.6668 11.3333C14.6668 11.1565 14.5966 10.987 14.4716 10.8619C14.3465 10.7369 14.177 10.6667 14.0002 10.6667ZM14.0002 7.33333H2.00016C1.82335 7.33333 1.65378 7.40357 1.52876 7.5286C1.40373 7.65362 1.3335 7.82319 1.3335 8C1.3335 8.17681 1.40373 8.34638 1.52876 8.4714C1.65378 8.59643 1.82335 8.66667 2.00016 8.66667H14.0002C14.177 8.66667 14.3465 8.59643 14.4716 8.4714C14.5966 8.34638 14.6668 8.17681 14.6668 8C14.6668 7.82319 14.5966 7.65362 14.4716 7.5286C14.3465 7.40357 14.177 7.33333 14.0002 7.33333Z">
+								</path>
+							</svg>
+						</a>
+					</div>
+					<div class="col-6 text-center" data-aos="fade" data-aos-delay="350">
+						<a href="#">
+							<img src="i/logo-copy-254x50.png" srcset="i/logo-copy-254x50.png 2x" alt="" class="img-fluid" data-aos="fade" data-aos-delay="0">
+						</a>
+					</div>
+					<div class="col-3" data-aos="fade" data-aos-delay="700">
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="offcanvas offcanvas-start bg-bg-3" id="custom-id-xokxx59g" aria-hidden="true">
+			<div class="offcanvas-header">
+				<a href="#">
+					<img src="i/logo-copy-254x50.png" srcset="i/logo-copy-254x50.png 2x" alt="" class="img-fluid">
+				</a>
+				<a href="#" class="btn btn-sm btn-width-equal-height btn-bg-3" data-bs-dismiss="offcanvas">
+					<svg width="24" height="24" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" class="fill-dark-2">
+						<path d="M8.9398 8L13.1398 3.80667C13.2653 3.68113 13.3359 3.51087 13.3359 3.33333C13.3359 3.1558 13.2653 2.98554 13.1398 2.86C13.0143 2.73447 12.844 2.66394 12.6665 2.66394C12.4889 2.66394 12.3187 2.73447 12.1931 2.86L7.9998 7.06L3.80646 2.86C3.68093 2.73447 3.51066 2.66394 3.33313 2.66394C3.1556 2.66394 2.98533 2.73447 2.8598 2.86C2.73426 2.98554 2.66374 3.1558 2.66374 3.33333C2.66374 3.51087 2.73426 3.68113 2.8598 3.80667L7.0598 8L2.8598 12.1933C2.79731 12.2553 2.74771 12.329 2.71387 12.4103C2.68002 12.4915 2.6626 12.5787 2.6626 12.6667C2.6626 12.7547 2.68002 12.8418 2.71387 12.9231C2.74771 13.0043 2.79731 13.078 2.8598 13.14C2.92177 13.2025 2.99551 13.2521 3.07675 13.2859C3.15798 13.3198 3.24512 13.3372 3.33313 13.3372C3.42114 13.3372 3.50827 13.3198 3.58951 13.2859C3.67075 13.2521 3.74449 13.2025 3.80646 13.14L7.9998 8.94L12.1931 13.14C12.2551 13.2025 12.3288 13.2521 12.4101 13.2859C12.4913 13.3198 12.5785 13.3372 12.6665 13.3372C12.7545 13.3372 12.8416 13.3198 12.9228 13.2859C13.0041 13.2521 13.0778 13.2025 13.1398 13.14C13.2023 13.078 13.2519 13.0043 13.2857 12.9231C13.3196 12.8418 13.337 12.7547 13.337 12.6667C13.337 12.5787 13.3196 12.4915 13.2857 12.4103C13.2519 12.329 13.2023 12.2553 13.1398 12.1933L8.9398 8Z">
+						</path>
+					</svg>
+				</a>
+			</div>
+			<div class="offcanvas-body">
+				<div>
+					<a href="#home" class="fw-bold text-dark-1 py-2 d-inline-block">
+						HOME
+					</a>
+				</div>
+				<img src="https://designmodo.com/startup/app/smiles.php?icon=smile&amp;search=P2lkPTY1MTgmaW5FZGl0b3I9MQ==&amp;path=L3N0YXJ0dXAvYXBwL3ByZXZpZXcucGhw&amp;e=MTc3MTY2" id="js-get-smile" class="visually-hidden" style="opacity: 0.01;">
+				<div>
+					<a href="#team" class="fw-bold text-dark-1 py-2 d-inline-block">
+						TEAM
+					</a>
+				</div>
+				<div>
+					<a href="#contact" class="fw-bold text-dark-1 py-2 d-inline-block">
+						CONTACT US
+					</a>
+				</div>
+			</div>
+		</div>
+		<div class="d-none d-lg-block">
+			<div class="container">
+				<div class="row justify-content-between align-items-center">
+					<div class="col-2">
+						<a href="#">
+							<img src="i/logo-copy-254x50.png" srcset="i/logo-copy-254x50.png 2x" alt="" class="img-fluid" data-aos="fade" data-aos-delay="0">
+						</a>
+					</div>
+					<div class="col-8 d-flex justify-content-end">
+						<a href="#home" class="fw-bold mx-4 text-dark-1" data-aos="fade" data-aos-delay="200">
+							HOME
+						</a>
+						<a href="#team" class="fw-bold mx-4 text-dark-1" data-aos="fade" data-aos-delay="350">
+									TEAM
+						</a>
+						<a href="#contact" class="fw-bold mx-4 text-dark-1" data-aos="fade" data-aos-delay="550">
+									CONTACT US
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="py-lg-8 py-4">
+		</div>
+		<div class="container">
+			<div class="row align-items-center flex-md-row-reverse">
+				<div class="mt-8 mt-md-0 col-xl-5 col-md-6">
+					<h1 class="mb-6 display-4" data-aos="fade" data-aos-delay="200">
+								We capture
+						<nobr>
+									CO
+							<sub>
+2
+							</sub>
+						</nobr>
+ emissions from ships
+					</h1>
+					<p class="mb-8 fs-1" data-aos="fade" data-aos-delay="350">
+						Reduce up to 95% of global fleet emissions
+					</p>
+				</div>
+			</div>
+		</div>
+		<div class="py-20">
+		</div>
+		<div class="py-20">
+		</div>
+		<div class="py-xxl-20">
+		</div>
+	</header>
+	<!-- Feature 5 -->
+		<section class="py-10 py-lg-20 text-center bg-bg-1">
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-lg-9 col-xl-8 col-xxl-8">
+						<h2 class="display-5 mb-6 text-light-1" data-aos="fade-down" data-aos-delay="0">
+							Shipowners are being forced to reduce CO2 emissions by new regulations from 2023 but have no viable ways to do so
+						</h2>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- Feature 9 -->
+			<section class="py-10 py-lg-20 bg-bg-3 text-center text-lg-start">
+				<div class="container">
+					<div class="row align-items-center justify-content-center justify-content-lg-between">
+						<div class="col-sm-8 col-md-6 col-lg-6">
+							<img src="i/koc0ltgvtwzjio3g3mv81vn612gfk6ldxn6cjvsn.png" srcset="i/koc0ltgvtwzjio3g3mv81vn612gfk6ldxn6cjvsn.png 2x" alt="" class="img-fluid w-100 mb-6 mb-lg-0" data-aos="fade-down" data-aos-delay="0">
+						</div>
+						<div class="col-sm-10 col-md-8 col-lg-5">
+							<h2 class="display-5 mb-6" data-aos="fade-down" data-aos-delay="250">
+								Our patent-pending technology fits onto existing ships and capture up to 95% of their CO2 emissions
+							</h2>
+							<p class="fs-2 mb-0" data-aos="fade-down" data-aos-delay="500">
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- Team 3 -->
+				<section class="py-10 py-lg-20 text-center bg-bg-2" id="team">
+					<div class="container">
+						<div class="row justify-content-center">
+							<div class="col-lg-10 col-xl-8">
+								<h2 class="display-5 mb-6" data-aos="fade" data-aos-delay="0">
+										Team
+								</h2>
+							</div>
+							<div class="col-md-9 col-lg-7 col-xl-6 col-xxl-5 mb-10">
+								<p class="fs-2 mb-0" data-aos="fade" data-aos-delay="200">
+								</p>
+							</div>
+						</div>
+						<div class="row justify-content-center">
+							<div class="col-sm-7 col-md-4 mb-12 mb-md-0" data-aos="fade" data-aos-delay="550">
+								<a href="https://www.linkedin.com/in/alishafredriksson/" target="_blank">
+								<img src="i/alisha-600x600.jpg" srcset="i/alisha-600x600.jpg 2x" alt="" class="img-fluid rounded-circle mb-6">
+							</a>
+								<h4 class="mb-2">
+										Alisha Fredriksson
+								</h4>
+								<p class="mb-0">
+										Co-Founder &amp; CEO
+								</p>
+							</div>
+							<div class="col-sm-7 col-md-4 mb-12 mb-md-0" data-aos="fade" data-aos-delay="700">
+								<a href="https://www.linkedin.com/in/roujia-wen/" target="_blank">
+								<img src="i/roujia-600x600.jpg" srcset="i/roujia-600x600.jpg 2x" alt="" class="img-fluid rounded-circle mb-6">
+							</a>
+								<h4 class="mb-2">
+									Roujia Wen
+								</h4>
+								<p class="mb-0">
+									Co-Founder &amp; CTO
+								</p>
+							</div>
+							<div class="col-sm-7 col-md-4" data-aos="fade" data-aos-delay="900">
+								<a href="https://www.linkedin.com/in/walkerkehoe/" target="_blank">
+								<img src="i/walker-600x600.jpeg" srcset="i/walker-600x600.jpeg 2x" alt="" class="img-fluid rounded-circle mb-6">
+							</a>
+								<h4 class="mb-2">
+									Walker Kehoe
+								</h4>
+								<p class="mb-0">
+									Founding Engineer
+								</p>
+							</div>
+						</div>
+					</div>
+				</section>
+				<!-- Team 1 -->
+					<section class="py-10 text-center py-lg-20 bg-bg-2">
+						<div class="container">
+							<div class="row justify-content-center">
+								<div class="col-md-9 col-lg-7 col-xl-6 col-xxl-5">
+									<h4>
+											Backed by
+									</h4>
+								</div>
+							</div>
+							<div class="row justify-content-center">
+								<div class="col-lg-3 col-md-5 col-sm-6" data-aos="fade" data-aos-delay="350">
+									<img src="i/ycombinatorlogotextwordmark.png" srcset="i/ycombinatorlogotextwordmark.png 2x" alt="" class="img-fluid mb-6 pt-3">
+								</div>
+								<div class="col-lg-3 col-md-5 col-sm-6" data-aos="fade" data-aos-delay="550">
+									<img src="i/logo-color.png" srcset="i/logo-color.png 2x" alt="" class="img-fluid mb-6 h-75">
+								</div>
+							</div>
+						</div>
+					</section>
+					<!-- Contact 1 -->
+						<section class="py-10 py-lg-20 text-center bg-bg-1" id="contact">
+							<div class="container">
+								<div class="row justify-content-center">
+									<div class="col-xxl-5 col-xl-6 col-lg-7 col-md-9">
+										<h1 class="mb-6 text-light-1" data-aos="fade" data-aos-delay="0">
+												Contact us
+										</h1>
+										<form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="http://formspree.io/alisha@seabound.co" method="post" class="mb-15 js-ajax-form" data-aos="fade" data-aos-delay="200">
+											<!-- forms alerts -->
+												<div class="alert alert-action-8 fixed-top invisible fade js-form-result" data-result="success" role="alert">
+													<span class="js-form-alert-text" data-default-text="Thanks for your message!">
+							Thanks for your message!
+													</span>
+												</div>
+												<div class="alert alert-action-5 fixed-top invisible fade js-form-result" data-result="error" role="alert">
+													<span class="js-form-alert-text">
+							Error!
+													</span>
+												</div>
+												<!-- forms alerts end -->
+													<input type="email" name="_replyto" id="email-address" placeholder="Email" class="mb-6 form-control border border-light-3 text-light-1" required="required">
+													<textarea name="message" id="message" placeholder="Your message" class="mb-6 form-control border border-light-3 text-light-1" rows="5" required="required"></textarea>
+													<div class="mb-6 row justify-content-center">
+														<div class="col-sm-6 mb-6 mb-sm-0">
+															<input type="text" name="name" id="full-name" placeholder="Name" class="form-control border border-light-3 text-light-1" required="required">
+														</div>
+														<div class="col-sm-6">
+															<button class="btn w-100 btn-action-3" type="submit">
+								Send message
+															</button>
+														</div>
+													</div>
+												</form>
+											</div>
+										</div>
+									</div>
+								</section>
+								<!-- Footer 4 -->
+									<footer class="pb-md-8 pt-md-10 py-8 text-center bg-bg-1">
+										<div class="container">
+											<div class="mt-10 mb-8 border-bottom border-light-3" data-aos="fade" data-aos-delay="550">
+											</div>
+											<p class="fs-5 mb-0 text-light-2" data-aos="fade" data-aos-delay="700">
+													Copyright © 2021 seabound.co
+											</p>
+										</div>
+									</footer>
 
-<body background="wave.jpg">
+		<!-- Bootstrap JS -->
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
 
-<div id="about">
-	<p> Seabound is building carbon capture systems for ships. </p>
-	<p> More to come soon. </p>
-	<p><span id="email"></span></p>
-	<script>
-		var parts = [ "sea", "&#46;", "co", "bound", "&#64;", "alisha"];
-		var email = parts[5] + parts[4] + parts[0] + parts[3] + parts[1] + parts[2];
-		document.getElementById("email").innerHTML=email;
-	</script>
-</div>
+		<!-- AOS 3.0.0-beta.6 plugin JS (Animations) -->
+		<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 
+		<!-- Startup JS (Custom js for all blocks) - Remove ".min" if you want to edit a JS code -->
+		<script src="js/scripts.min.js"></script>
 
-
-</body>
+	</body>
 </html>
