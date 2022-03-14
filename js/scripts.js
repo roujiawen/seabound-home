@@ -228,4 +228,11 @@ document.addEventListener("DOMContentLoaded", function(){
 	switchControlSlider();
 	initAnimations();
 	ajaxFormInit();
+	var myOffcanvas = document.getElementById('custom-id-xokxx59g');
+	var bsOffcanvas = new bootstrap.Offcanvas(myOffcanvas);
+	document.getElementById("OpenMenu").addEventListener('click',function (e){
+		e.preventDefault();
+		e.stopPropagation();
+		bsOffcanvas.toggle();
+	});
 });
