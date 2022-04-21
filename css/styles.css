@@ -11198,8 +11198,8 @@ a:not([data-aos]):not(.btn):hover {
 }
 
 .py-20 {
-  padding-top: 5rem !important;
-  padding-bottom: 5rem !important;
+  padding-top: 6rem !important;
+  padding-bottom: 6rem !important;
 }
 
 .pt-0 {
@@ -19829,8 +19829,8 @@ a:not([data-aos]):not(.btn):hover {
   }
 
   .py-xxl-20 {
-    padding-top: 5rem !important;
-    padding-bottom: 5rem !important;
+    padding-top: 4rem !important;
+    padding-bottom: 4rem !important;
   }
 
   .pt-xxl-0 {
@@ -20188,6 +20188,12 @@ a:not([data-aos]):not(.btn):hover {
 
   .fs-2 {
     font-size: 1.375rem !important;
+  }
+}
+@media (min-width: 2000px) {
+  .py-xxxl-20 {
+    padding-top: 7rem !important;
+    padding-bottom: 7rem !important;
   }
 }
 @media print {
