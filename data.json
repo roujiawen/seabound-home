@@ -1,143 +1,137 @@
 {
-  "team": [
-    {
-      "linkedin": "https://www.linkedin.com/in/alishafredriksson/",
-      "image": "i/alisha-600x600.jpg",
-      "name": "Alisha Fredriksson",
-      "title": "Co-Founder & CEO"
-    },
-    {
-      "linkedin": "https://www.linkedin.com/in/roujia-wen/",
-      "image": "i/roujia-600x600.png",
-      "name": "Roujia Wen",
-      "title": "Co-Founder & CTO"
-    },
-    {
-      "linkedin": "https://www.linkedin.com/in/walkerkehoe/",
-      "image": "i/walker-600x600.jpeg",
-      "name": "Walker Kehoe",
-      "title": "Founding Mechanical Engineer"
-    },
-    {
-      "linkedin": "#",
-      "image": "i/mladen-600x600.jpg",
-      "name": "Mladen Domazet",
-      "title": "Principal Naval Architect"
-    },
-    {
-      "linkedin": "https://www.linkedin.com/in/ryanmclaughlin2/",
-      "image": "i/ryan-600x600.jpg",
-      "name": "Ryan McLaughlin",
-      "title": "Robotics and Controls Engineer"
-    },
-    {
-      "linkedin": "https://www.linkedin.com/in/jayden-violet-rae-845529162/",
-      "image": "i/JaydenHS.jpeg",
-      "name": "Jayden Rae",
-      "title": "Founder's Associate"
-    },
-    {
-      "linkedin": "",
-      "image": "",
-      "name": "",
-      "title": ""
-    },
-    {
-      "linkedin": "",
-      "image": "",
-      "name": "",
-      "title": ""
-    }
-  ],
-  "jobs": [
-    {
-      "job_title": "Controls Software Engineer",
-      "subtext": "",
-      "url": "https://jobs.ashbyhq.com/seabound/",
-      "open_in_new_tab": true,
-      "action_text": "Apply now"
-    },
-    {
-      "job_title": "R&D Thermal Fluids Engineer",
-      "subtext": "",
-      "url": "https://jobs.ashbyhq.com/seabound/",
-      "open_in_new_tab": true,
-      "action_text": "Apply now"
-    },
-    {
-      "job_title": "Open Application",
-      "subtext": "Don't see the right role for you?",
-      "url": "#contact",
-      "open_in_new_tab": false,
-      "action_text": "Message us"
-    }
-  ],
-  "news": {
-    "column1": [
+   "team":[
       {
-        "url": "https://www.forbes.com/video/6321865379112/this-entrepreneur-has-a-costeffective-solution-to-reducing-emissions-in-the-shipping-industry/",
-        "image": "i/forbes_video.png",
-        "date": "2023/03/06",
-        "headline": "Forbes: This Entrepreneur Has A Cost-Effective Solution To Reducing Emissions In The Shipping Industry"
+         "linkedin":"https://www.linkedin.com/in/alishafredriksson/",
+         "image":"i/alisha-600x600.jpg",
+         "name":"Alisha Fredriksson",
+         "title":"Co-Founder & CEO"
+      },
+      {
+         "linkedin":"https://www.linkedin.com/in/roujia-wen/",
+         "image":"i/roujia-600x600.png",
+         "name":"Roujia Wen",
+         "title":"Co-Founder & CTO"
+      },
+      {
+         "linkedin":"https://www.linkedin.com/in/walkerkehoe/",
+         "image":"i/walker-600x600.jpeg",
+         "name":"Walker Kehoe",
+         "title":"Founding Mechanical Engineer"
+      },
+      {
+         "linkedin":"#",
+         "image":"i/mladen-600x600.jpg",
+         "name":"Mladen Domazet",
+         "title":"Principal Naval Architect"
+      },
+      {
+         "linkedin":"https://www.linkedin.com/in/ryanmclaughlin2/",
+         "image":"i/ryan-600x600.jpg",
+         "name":"Ryan McLaughlin",
+         "title":"Robotics and Controls Engineer"
+      },
+      {
+         "linkedin":"https://www.linkedin.com/in/jayden-violet-rae-845529162/",
+         "image":"i/JaydenHS.jpeg",
+         "name":"Jayden Rae",
+         "title":"Founders' Associate"
+      },
+      {
+         "linkedin":"https://www.linkedin.com/in/melih-mehmet-kuzgun-80634ba/",
+         "image":"i/12.jpg",
+         "name":"Melih Mehmet Kuzgun",
+         "title":"Senior Outfitting Engineer"
+      },
+      {
+         "linkedin":"https://www.linkedin.com/in/john-brett-titcomb",
+         "image":"i/brett.jpg",
+         "name":"Brett Titcomb",
+         "title":"Mechanical Engineer"
       }
-    ],
-    "column2": [
+   ],
+   "jobs":[
       {
-        "url": "https://www.forbes.com/sites/oliviapeluso/2023/03/06/climate-takes-the-stage-among-this-years-30-under-30-europe-social-impact-entrepreneurs/",
-        "image": "i/forbes_article.png",
-        "date": "2023/03/06",
-        "headline": "Forbes: Climate Takes The Stage Among This Year’s 30 Under 30 Europe Social Impact Entrepreneurs"
+         "job_title":"R&D Thermal Fluids Engineer",
+         "subtext":"",
+         "url":"https://jobs.ashbyhq.com/seabound/",
+         "open_in_new_tab":true,
+         "action_text":"Apply now"
       },
       {
-        "url": "https://climatenow.com/podcast/making-waves-with-marine-carbon-capture/",
-        "image": "i/climate-now-logo.jpeg",
-        "date": "2022/10/24",
-        "headline": "Making waves with marine carbon capture"
-      },
-      {
-        "url": "https://www.offshore-energy.biz/seabound-taps-crestchic-loadbanks-to-help-test-its-carbon-capture-prototype/",
-        "image": "i/crestchic.jpeg",
-        "date": "2023/01/11",
-        "headline": "Offshore Energy: Seabound taps Crestchic Loadbanks to help test its carbon capture prototype"
-      },
-      {
-        "url": "https://www.businessinsider.com/the-10-carbon-removal-startups-to-watch-according-to-investors-2022-4",
-        "image": "",
-        "date": "2022/05/10",
-        "headline": "Business Insider: 11 Carbon Removal Startups to Watch"
+         "job_title":"Open Application",
+         "subtext":"Don't see the right role for you?",
+         "url":"#contact",
+         "open_in_new_tab":false,
+         "action_text":"Message us"
       }
-    ],
-    "column3": [
-      {
-        "url": "https://techcrunch.com/2022/05/20/carbon-capture-container-ships/",
-        "image": "i/techcrunch-logo-square.jpeg",
-        "date": "2022/05/20",
-        "headline": "Carbon capture is headed for the high seas"
-      },
-      {
-        "url": "https://www.mcjcollective.com/my-climate-journey-podcast/seabound",
-        "image": "i/mcj-logo-square.jpeg",
-        "date": "2022/06/02",
-        "headline": "Startup Series: Seabound"
-      },
-      {
-        "url": "https://www.energymonitor.ai/tech/electrification/can-electric-boats-decarbonise-shipping",
-        "image": "",
-        "date": "2022/10/11",
-        "headline": "Energy Monitor: Can electric boats decarbonise shipping?"
-      },
-      {
-        "url": "https://survivaltech.substack.com/p/alisha-seabound",
-        "image": "",
-        "date": "2022/09/29",
-        "headline": "Survivaltech.club: Interview with Alisha Fredriksson, CEO & Co-Founder of Seabound #44"
-      },
-      {
-        "url": "https://podlink.to/homeroom-seabound",
-        "image": "",
-        "date": "2022/07/26",
-        "headline": "Homeroom Podcast: Ep.52 - Alisha Fredriksson"
-      }
-    ]
-  }
+   ],
+   "news":{
+      "column1":[
+         {
+            "url":"https://www.forbes.com/video/6321865379112/this-entrepreneur-has-a-costeffective-solution-to-reducing-emissions-in-the-shipping-industry/",
+            "image":"i/forbes_video.png",
+            "date":"2023/03/06",
+            "headline":"Forbes: This Entrepreneur Has A Cost-Effective Solution To Reducing Emissions In The Shipping Industry"
+         }
+      ],
+      "column2":[
+         {
+            "url":"https://www.forbes.com/sites/oliviapeluso/2023/03/06/climate-takes-the-stage-among-this-years-30-under-30-europe-social-impact-entrepreneurs/",
+            "image":"i/forbes_article.png",
+            "date":"2023/03/06",
+            "headline":"Forbes: Climate Takes The Stage Among This Year’s 30 Under 30 Europe Social Impact Entrepreneurs"
+         },
+         {
+           "url":"https://www.tradewindsnews.com/technology/lomar-s-tech-fund-backs-wen-and-fredriksson-s-carbon-capture-start-up-seabound/2-1-1438081",
+            "image":"i/Lomarlabs.jpeg",
+            "date":"2023/04/20",
+            "headline":"Lomar’s tech fund backs Wen and Fredriksson’s carbon-capture start-up Seabound"
+         },
+         {
+             "url":"https://climatenow.com/podcast/making-waves-with-marine-carbon-capture/",
+            "image":"i/climate-now-logo.jpeg",
+            "date":"2022/10/24",
+            "headline":"Making waves with marine carbon capture"
+
+         },
+         {
+            "url":"https://www.businessinsider.com/the-10-carbon-removal-startups-to-watch-according-to-investors-2022-4",
+            "image":"",
+            "date":"2022/05/10",
+            "headline":"Business Insider: 11 Carbon Removal Startups to Watch"
+         }
+      ],
+      "column3":[
+         {
+            "url":"https://techcrunch.com/2022/05/20/carbon-capture-container-ships/",
+            "image":"i/techcrunch-logo-square.jpeg",
+            "date":"2022/05/20",
+            "headline":"Carbon capture is headed for the high seas"
+         },
+         {
+            "url":"https://www.mcjcollective.com/my-climate-journey-podcast/seabound",
+            "image":"i/mcj-logo-square.jpeg",
+            "date":"2022/06/02",
+            "headline":"Startup Series: Seabound"
+         },
+         {
+            "url":"https://www.energymonitor.ai/tech/electrification/can-electric-boats-decarbonise-shipping",
+            "image":"",
+            "date":"2022/10/11",
+            "headline":"Energy Monitor: Can electric boats decarbonise shipping?"
+         },
+         {
+            "url":"https://survivaltech.substack.com/p/alisha-seabound",
+            "image":"",
+            "date":"2022/09/29",
+            "headline":"Survivaltech.club: Interview with Alisha Fredriksson, CEO & Co-Founder of Seabound #44"
+         },
+         {
+            "url":"https://podlink.to/homeroom-seabound",
+            "image":"",
+            "date":"2022/07/26",
+            "headline":"Homeroom Podcast: Ep.52 - Alisha Fredriksson"
+         }
+      ]
+   }
 }
