@@ -47,6 +47,12 @@
          "image":"i/Brett.png",
          "name":"Brett Titcomb",
          "title":"Mechanical Engineer"
+      }, 
+      {
+         "linkedin":"https://www.linkedin.com/in/kyle-mccornack-236240109/",
+         "image":"i/Kyle.jpg",
+         "name":"Kyle McCornack",
+         "title":"Controls Software Engineer"
       }
    ],
    "jobs":[
