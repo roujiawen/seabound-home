@@ -53,9 +53,53 @@
          "image":"i/Kyle.jpg",
          "name":"Kyle McCornack",
          "title":"Controls Software Engineer"
+      },
+       {
+         "linkedin":"https://www.linkedin.com/in/kenny-kwong-94408271/?originalSubdomain=uk/",
+         "image":"i/kenny.jpg",
+         "name":"Kenny Kwong",
+         "title":"Thermal Fluids Engineer"
       }
    ],
    "jobs":[
+      
+  {
+         "job_title":"Chemical Engineer",
+         "subtext":"London,UK",
+         "url":"https://seabound.breezy.hr/p/cee1f33af23a01-chemical-engineer",
+         "open_in_new_tab":true,
+         "action_text":"Apply"
+      },
+       {
+         "job_title":"Electrical Engineer",
+         "subtext":"London,UK",
+         "url":"https://seabound.breezy.hr/p/11309fbd3f9201-electrical-engineer",
+         "open_in_new_tab":true,
+         "action_text":"Apply"
+      },
+       {
+         "job_title":"Fluid Systems Engineer",
+         "subtext":"London,UK",
+         "url":"https://seabound.breezy.hr/p/f07378043af101-fluid-systems-engineer",
+         "open_in_new_tab":true,
+         "action_text":"Apply"
+      },
+      {
+         "job_title":"Mechanical Engineer",
+         "subtext":"London,UK",
+         "url":"https://seabound.breezy.hr/p/59550852134701-mechanical-engineer",
+         "open_in_new_tab":true,
+         "action_text":"Apply"
+      },
+
+        {
+         "job_title":"Structures Engineer",
+         "subtext":"London,UK",
+         "url":"https://seabound.breezy.hr/p/a71c0f201ac201-structures-engineer",
+         "open_in_new_tab":true,
+         "action_text":"Apply"
+      },
+
       {
          "job_title":"Open Application",
          "subtext":"Don't see the right role for you?",
@@ -63,6 +107,7 @@
          "open_in_new_tab":false,
          "action_text":"Message us"
       }
+
    ],
    "news":{
       "column1":[
